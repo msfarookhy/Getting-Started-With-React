@@ -1,15 +1,15 @@
-import React from 'react';
-// functional components 
+// import React from 'react';
+// // functional components 
 
- const ListFriends = function (props){
-     return(
-        <ol>
-               {props.person.map((list)=><li key={list.id}>{list.name}</li>)}
-         </ol>
+//  const ListFriends = function (props){
+//      return(
+//         <ol>
+//                {props.person.map((list)=><li key={list.id}>{list.name}</li>)}
+//          </ol>
 
-     )
+//      )
 
- }
+//  }
 
 
 
@@ -26,4 +26,4 @@ import React from 'react';
 //         )
 //     }
 // }
-export default ListFriends;
+// export default ListFriends;
